@@ -1,7 +1,7 @@
 {
   "name": "kickstart",
   "version": "1.0.0",
-  "description": "",
+  "description": "This Application is a mockup of Kickstarter using Blockchain and smart contracts",
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
@@ -9,7 +9,7 @@
     "start": "NODE_ENV=production node server.js",
     "export": "npm run build && next export"
   },
-  "author": "",
+  "author": "Naman",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^7.0.1",
