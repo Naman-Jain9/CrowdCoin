@@ -110,11 +110,4 @@ contract Campaign {
         return numRequests;
     }
 
-    modifier onlyManager() {
-        require(
-            msg.sender == manager,
-            "Only the campaign manager can call this function."
-        );
-        _;
-    }
 }
